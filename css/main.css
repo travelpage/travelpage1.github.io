@@ -1,3 +1,8 @@
+body{
+	align-items: center;
+	text-align: center;
+}
+
 a:hover , .travelpic1 , .travelpic2 , .travelpic3{
 	text-decoration: none!important;
 	color: #fff9ce!important;
@@ -13,10 +18,6 @@ a:hover , .tomybloglink {
 a:visited .travelpic1 , .travelpic2 , .travelpic3{
 	text-decoration: none!important;
 	color: none!important;
-}
-
-body{
-	align-items: center;
 }
 
 
@@ -126,7 +127,11 @@ body{
 }
 
 .travelpic1{
-	margin-left: 9% !important;
+	margin-left: 9%;
+}
+
+.travelpic3{
+	margin-right: 9%;
 }
 
 .canyon , .surfinggirl , .mountainman{
@@ -174,9 +179,11 @@ a , .blogtitle{
 }
 
 .abouttext{
-	width: 778px;
+/*	width: 778px;*/
 	margin-left: 21%;
 	font-size: 20px;
+	margin-right: 21%;
+
 }
 
 .avatar{
@@ -214,6 +221,7 @@ a , .blogtitle{
 	display: block;
 	margin-left: 22%;
 	color: #C57D29;
+	margin-right: 22%;
 }
 
 .e-mail , .comment{
@@ -230,20 +238,21 @@ a , .blogtitle{
 	margin-top: 20px;
 }
 
-.check{
-	margin-top: 20px;
-	display: inline-block;
-}
-
-.check , .checkbox{
-	text-align: center;
-}
-
 .send{
 	display: block;
 	margin-left: 44%;
 	margin-top: 10px;
 }
+
+.mynewsletter{
+	display: inline-block;
+}
+
+.mynewsletter , .checkletter{
+	margin-top: 20px;
+}
+
+
 
 
 /*------------------FOOTER AREA--------------------*/
@@ -262,7 +271,7 @@ a , .blogtitle{
 
 
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 1050px){
 /*	.mainimg{
 		size: 75% !important;
 	}*/
@@ -298,14 +307,22 @@ a , .blogtitle{
 
 }
 
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 600px){
+
+	.mainimg{
+		height: 200px;
+		size: 200%;
+	}
+
 	.maintext{
-		font-size: 32px; 
-		margin-top: -180px;
+		font-size: 52px; 
+		margin-top: -165px;
 	}
 
 	.secondmaintext{
-		font-size: 16px;
+		font-size: 15px;
+		margin-top: -5px;
+		margin-bottom: -5px;
 	}
 
 	.tomybloglink{
@@ -320,12 +337,47 @@ a , .blogtitle{
 	}
 
 	.blogtitle{
-		margin-top: 130px;
+		margin-top: 40px!important;
+		font-size: 72px;
 	}
 
 	.travelpic3{
 		margin-left: 31.5%;
 		margin-top: 40px;
+	}
+
+	.send{
+		margin-left: 28%!important;
+	}
+
+	.username , .e-mail , .comment{
+		width: 210px!important;
+	}
+
+	.travelpic1, .travelpic2 ,.travelpic3{
+		height: 300px;
+		width: 237px;
+		margin-left: 4.5%!important; 
+		margin-right: 5%;
+		margin-bottom: 20px;
+	}
+
+	.travelpic3{
+		margin-top: 20px !important;
+	}
+
+	.travelpic1:hover , .travelpic2:hover ,.travelpic3:hover{
+		height: 300px!important;
+	}
+
+	.canyon , .surfinggirl , .mountainman{
+		width: 200px;
+		height: 180px;
+		margin-top: 20px;
+	}
+
+	.blogtitles{
+		font-size: 38px;
 	}
 
 }
@@ -339,11 +391,43 @@ a , .blogtitle{
 		margin-top: 130px;
 	}
 
-	.travelpic3{
-		margin-left: 31.5%;
+/*	.travelpic3{
+		margin-left: 15.5%;
 		margin-top: 40px;
+	}*/
+
+	.travelpic1 , .travelpic2 , .travelpic3{
+		margin-left: 6%!important;
+		margin-right: 6%;
 	}
 
+	.blogtitle{
+		margin-top: 100px !important;
+	}
+
+	.blog{
+		height: 1350px!important;
+	}
+
+	.travelpic1{
+		margin-bottom: 20px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1340px){
+	.blog{
+		height: 710px;
+	}
+
+	.travelpic1{
+		margin-left: 2%;
+	}
+
+	.travelpic3{
+		margin-right: 25px;
+	}
 }
 
 @media only screen and (max-width: 1250px){
@@ -356,10 +440,43 @@ a , .blogtitle{
 	}
 
 	.travelpic3{
-		margin-left: 31.5%;
+		margin-left: 8%;
 		margin-top: 40px;
 	}
+
+	.travelpic1{
+		margin-left: -1%;
+	}
+
+	.blog{
+		height: 1050px;
+	}
+
+	.blogtitle{
+		margin-top: 140px;
+	}
+
+	.username , .e-mail , .comment{
+		width: 500px;
+		margin-left: 20%;
+	}
+
+	.send{
+		margin-left: 39.5%;
+	}
+
+	.about{
+		height: 950px;
+	}
+
 }
+
+/*@media only screen and (max-width: 1250px){
+	.blog{
+		height: 700px;
+	}
+}*/
+
 
 
 /*--------------------NAviGationBar-----------------*/
